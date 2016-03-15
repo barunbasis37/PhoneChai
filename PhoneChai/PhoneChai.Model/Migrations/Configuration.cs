@@ -5,14 +5,14 @@ namespace PhoneChai.Model.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<PhoneChai.Model.BusinessDbContex>
+    internal sealed class Configuration : DbMigrationsConfiguration<PhoneChai.Model.BusinessDbContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(PhoneChai.Model.BusinessDbContex context)
+        protected override void Seed(PhoneChai.Model.BusinessDbContext context)
         {
             //  This method will be called after migrating to the latest version.
 

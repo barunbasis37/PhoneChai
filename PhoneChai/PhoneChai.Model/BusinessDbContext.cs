@@ -8,9 +8,9 @@ using Microsoft.Win32.SafeHandles;
 
 namespace PhoneChai.Model
 {
-    public class BusinessDbContex : DbContext
+    public class BusinessDbContext : DbContext
     {
-        public BusinessDbContex(): base("DefaultConnection")
+        public BusinessDbContext(): base("DefaultConnection")
         {
             
         }

@@ -49,7 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BusinessDbContex.cs" />
+    <Compile Include="BusinessDbContext.cs" />
     <Compile Include="Entity.cs" />
     <Compile Include="Migrations\201603150808020_Phone Table.cs" />
     <Compile Include="Migrations\201603150808020_Phone Table.Designer.cs">
