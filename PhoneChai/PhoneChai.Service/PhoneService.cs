@@ -13,6 +13,11 @@ namespace PhoneChai.Service
     {
         BusinessDbContext _dbContext;
 
+        public PhoneService(BusinessDbContext db)
+        {
+            this._dbContext = db;
+        }
+
         public List<PhoneViewModel> GetAll()
         {
             PhoneRepository repository=new PhoneRepository(_dbContext);
